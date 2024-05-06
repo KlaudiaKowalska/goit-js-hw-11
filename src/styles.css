@@ -34,3 +34,37 @@
   margin-right: 10px; /* Dodaj odstęp między poszczególnymi elementami */
   text-align: center;
 }
+
+.form-class {
+  background-color: #3f56b1;
+  height: 50px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  height: 30px;
+}
+
+button {
+  height: 30px;
+  border-radius: 0;
+}
+
+.button-load {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.load-more {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.load-more:hover {
+  background-color: #192665;
+}
