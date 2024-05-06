@@ -1,0 +1,36 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* Automatycznie dopasowuje kolumny do szerokości dostępnego miejsca */
+  gap: 20px; /* Odstęp między elementami */
+  margin: 20px;
+}
+
+.photo-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc; /* Dodaj obramowanie dla każdej karty */
+  overflow: hidden; /* Ukryj przekraczające elementy */
+}
+
+.photo-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Zapewnia, że obraz wypełnia cały obszar img */
+}
+
+.info {
+  display: flex; /* Użyj Flexboxa */
+  justify-content: space-between; /* Rozłoż elementy równomiernie na osi głównej */
+  align-items: center; /* Wyśrodkuj elementy na osi poprzecznej */
+  padding: 10px;
+  height: 35px;
+}
+
+.info-item {
+  /* Styl dla elementów informacji */
+  margin-right: 10px; /* Dodaj odstęp między poszczególnymi elementami */
+  text-align: center;
+}
